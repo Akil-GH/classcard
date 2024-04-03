@@ -1,0 +1,304 @@
+.Sidebar{
+  background-color: rgba(222, 219, 219, 0.447);
+  
+}
+.aec-tl-child {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    object-fit: cover;
+    min-height: 48px;
+    border-radius: 50px;
+  }
+  .suraj-talreja,
+  .surajvtalrejagmailcom {
+    position: relative;
+    font-family: var(--text-sm-leading-5-font-normal);
+    color: var(--gray-7001);
+    text-align: left;
+  }
+  .suraj-talreja {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    display: inline-block;
+    min-width: 120px;
+  }
+  .surajvtalrejagmailcom {
+    font-size: var(--text-sm-leading-5-font-normal-size);
+    white-space: nowrap;
+  }
+  .suraj-talreja-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs) 0 0;
+    gap: var(--gap-9xs);
+    margin-top: 5px;
+    margin-left: 3px;
+  }
+  .nav-hover-icon {
+    margin-top: 5px;    
+    width: 7px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .aec-tl {
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .navigation{
+    margin-top: 10px;
+  }
+  .switch-horizontal-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+    margin-right: 10px;
+  }
+  .dummy{
+    background-color: rgba(222, 219, 219, 0.447);
+    height: 33px;
+    margin-top: -33px;
+  }
+  .dummy2{
+    height: 350px;
+    background-color: rgba(222, 219, 219, 0.447);
+  margin-bottom: -350px;
+  }
+
+  .text5 {
+    position: relative;
+    font-size: var(--text-sm-leading-5-font-normal-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-sm-leading-5-font-normal);
+    color: var(--gray-700);
+    text-align: left;
+  }
+  .button,
+  .pencil-alt {
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .button {
+   cursor: pointer;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 280px;
+   background-color: white;
+   border: 0.1px solid;
+   margin: 1px;
+   align-items: center;
+  margin: 5px;
+   border-radius: 5px;
+   padding: 10px;
+   border-color: rgba(0, 0, 0, 0.272);
+   box-shadow: 5px ;
+  }
+ 
+  .pencil-alt {
+    margin: 0;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    min-height: 20px;
+  }
+  .text6 {
+    position: relative;
+    font-size: var(--text-sm-leading-5-font-normal-size);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--text-sm-leading-5-font-normal);
+    color: var(--gray-700);
+    text-align: left;
+    display: inline-block;
+    min-width: 73px;
+  }
+  .button1,
+  .download-button {
+    align-self: stretch;
+    display: flex;
+    gap: var(--gap-5xs);
+  }
+  .button1 {
+    height: 38px;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-white);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--gray-300);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-4xs) var(--padding-3xl) var(--padding-4xs)
+      var(--padding-xl);
+    white-space: nowrap;
+  }
+  .download-button {
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .calendar-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  .text7 {
+    position: relative;
+    font-size: var(--text-base-leading-6-font-medium-size);
+    line-height: 24px;
+    font-weight: 500;
+    font-family: var(--text-sm-leading-5-font-normal);
+    color: var(--gray-600);
+    text-align: left;
+    display: inline-block;
+    min-width: 95px;
+    margin-left: 10px;
+  }
+  .content,
+  .vertical-navigationitem {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .content {
+    gap: var(--gap-xs);
+    width: 500px;
+    border: none;
+  }
+  .content:hover{
+    cursor: pointer;
+    background-color: rgba(197, 193, 193, 0.447);
+  }
+  .vertical-navigationitem {
+    flex: 1;
+    border-radius: var(--br-7xs);
+    padding: var(--padding-4xs) var(--padding-5xs);
+  }
+  .cursor-click-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  .chat-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+
+  .content2,
+  .vertical-navigationitem2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .content2 {
+    height: 24px;
+    display: flex;
+    gap: var(--gap-xs);
+  }
+  .vertical-navigationitem2 {
+    align-self: stretch;
+    height: 42px;
+    border-radius: var(--br-7xs);
+    display: none;
+    padding: var(--padding-5xs) var(--padding-xs) var(--padding-5xs)
+      var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .hand-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+
+ 
+ 
+  .currency-dollar-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  
+ 
+  
+  .folder-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+ 
+  
+  .folder-open-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+
+  .chart-bar-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  
+  .form-fields-checkbox-inputs,
+  .navigation {
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .navigation {
+    align-self: stretch;
+    flex: 1;
+    gap: var(--gap-xs);
+  }
+  .form-fields-checkbox-inputs {
+    margin: 0;
+    height: 578px;
+    width: 308px;
+    padding: var(--padding-xl) var(--padding-11xl) var(--padding-xl) 0;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+  }

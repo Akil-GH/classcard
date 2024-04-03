@@ -1,0 +1,219 @@
+.logo-icon {
+    height: 32px;
+    width: 35px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icon-other-search-child {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    margin-right: 15px;
+  }
+  .shopping-cart-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 14px;
+  }
+  .shopping-cart-icon:hover{
+    cursor: pointer;
+  }
+  .navbarsicon-button {
+    height: 32px;
+    width: 32px;
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: var(--padding-9xs);
+    box-sizing: border-box;
+  }
+  .icon-other-search,
+  .navbarsicon-button,
+  .trailing-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .trailing-content {
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-base);
+  }
+  .icon-other-search {
+    height: 32px;
+    justify-content: flex-end;
+    gap: var(--gap-9xs);
+  }
+  .avatar-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+  .title {
+    position: relative;
+    line-height: 24px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;    
+opacity: 80%;
+    display: inline-block;
+    min-width: 78px;
+    white-space: nowrap;
+    margin: 3px;
+  }
+  .avatar-with-text,
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .avatar-with-text {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-xs);
+  }
+  .chevron-down-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-left: 2px;
+  }
+  .chevron-down-icon:hover{
+    cursor: pointer;
+  }
+  .avatar-with-text-parent,
+  .primary,
+  .search-for-a-task {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .avatar-with-text-parent {
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .primary,
+  .search-for-a-task {
+    max-width: 100%;
+  }
+  .search-for-a-task {
+    justify-content: flex-end;
+    padding: 0 0 0 var(--padding-448xl-5);
+    box-sizing: border-box;
+    gap: var(--gap-xs);
+  }
+  .primary {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .calendar-navigation-item {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--gray-200);
+    box-sizing: border-box;
+  }
+  .text1 {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 59px;
+  }  
+  .tab {
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-xs);
+  }
+  .text2 {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 93px;
+  }
+  .tab1 {
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-xs);
+  }
+  .text3 {
+    position: relative;
+    font-size: var(--text-base-leading-6-font-medium-size);
+    line-height: 24px;
+    font-family: var(--text-sm-leading-5-font-normal);
+    color: rgb(128, 128, 128);
+    text-align: left;
+    display: inline-block;
+    min-width: 74px;
+    margin: 5px;
+  }
+  .tab2 {
+    cursor: pointer;
+    border: 0;
+    padding: 5px;
+    background-color: var(--gray-100);
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+   
+  }
+  .tab2:hover {
+    background-color: rgba(197, 193, 193, 0.447);
+    border-radius: 8px;
+    
+  }
+  .text3:hover{
+    color: black;
+  }
+ 
+  .tab-parent,
+  .tab3,
+  .topdivider {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .tab3 {
+    border-radius: var(--br-7xs);
+    padding: var(--padding-5xs) var(--padding-xs);
+  }
+  .tab-parent,
+.topdivider {
+  gap: var(--gap-xl);
+  max-width: 100%;
+  color: var(--color-slategray);
+}
+.topdivider {
+  align-self: stretch;
+  height: 160px;
+  background-color: var(--color-white);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.05);
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi-5);
+  text-align: left;
+  font-size: var(--text-base-leading-6-font-medium-size);
+  color: var(--gray-700);
+  font-family: var(--text-sm-leading-5-font-normal);
+}  
